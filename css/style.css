@@ -12,9 +12,10 @@ header {
 }
 
 .container {
-    height: 20px;
+    
     max-width: 1200px;
     margin: 30px auto;
+    padding: 100px;
 }
 
 .row {
@@ -68,3 +69,31 @@ header {
     height: 300px;
     background-color: pink;
 }
+
+/* STILE DUE COLONNE*/
+.col-70 {
+    width: 70%;
+    height: 250px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+}
+
+.col-30 {
+    width: 30%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.bg-sky {
+    background-color: skyblue;
+}
+    .bg-peach {
+        background-color: peachpuff;
+    }
+    
+    .bg-gray {
+        background-color: gray;
+        height: 500px; ;
+    width: 100%;
+    }
